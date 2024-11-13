@@ -21,7 +21,6 @@ public class Revenue : MonoBehaviour, MousePointEnter
     private void Update()
     {
         time += Time.deltaTime;
-        OnPointEnter();
         AutoRevenue();
         revenueText.text = $"보유한 돈은 : {money.ToString()} 원";
     }
@@ -44,8 +43,10 @@ public class Revenue : MonoBehaviour, MousePointEnter
 
     public void OnPointEnter()
     {
+        Debug.Log("0000");
         if (Input.GetMouseButtonDown(0))
         {
+            Debug.Log("1111");
             OnClickRevenue();
         }
     }
