@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eeb0037c6189425a95a2d6b5f3bbfa2, type: 3}
   m_Name: WoodenSword
   m_EditorClassIdentifier: 
-  damage: 0
-  price: 0
+  name: WoodenSword
+  damage: 10
+  price: 2000
