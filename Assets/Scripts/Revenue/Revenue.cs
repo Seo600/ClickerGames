@@ -3,29 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Revenue : MonoBehaviour
+public class Revenue : MonoBehaviour, MousePointEnter
 {
     public PlayerStateData state;
-    public Money money;
+    public Money moneySO;
     
     public Text revenueText;
     
     private float time;
+    public int money;
 
     private void Start()
     {
-        time = Time.time;
+        money = moneySO.money;
     }
 
     private void Update()
     {
+        time += Time.deltaTime;
+        OnPointEnter();
         AutoRevenue();
-        revenueText.text = money.money.ToString();
+        revenueText.text = $"보유한 돈은 : {money.ToString()} 원";
     }
 
-    public void ClickRevenue()
+    public void OnClickRevenue()
     {
-        money.money += state.damage;
+        Debug.Log($"OnClickRevenue 돈총량은 : {money}");
+        Debug.Log($"OnClickRevenue 데미지 값은 : {state.damage}");
+        money += state.damage;
         time = 0;
     }
 
@@ -33,7 +38,15 @@ public class Revenue : MonoBehaviour
     {
         if (time >= 2f)
         {
-            ClickRevenue();
+            OnClickRevenue();
+        }
+    }
+
+    public void OnPointEnter()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            OnClickRevenue();
         }
     }
 }

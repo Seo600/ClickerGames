@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5d497dc6c90f404a814dd18e82f2e91, type: 3}
   m_Name: PlayerStateData
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 10
