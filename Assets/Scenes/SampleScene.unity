@@ -2005,7 +2005,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 218852970}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2104,9 +2104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 241695610}
-  - component: {fileID: 241695612}
-  - component: {fileID: 241695613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2129,78 +2127,6 @@ Transform:
   - {fileID: 5312859483142524192}
   m_Father: {fileID: 1720804230}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &241695612
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241695609}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 241695613}
-        m_TargetAssemblyTypeName: Revenue, Assembly-CSharp
-        m_MethodName: OnPointEnter
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &241695613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241695609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc2376c723ea14a438db0dffd9b7550e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  state: {fileID: 11400000, guid: e043d4404108d4df8a843c34a0e891ed, type: 2}
-  moneySO: {fileID: 11400000, guid: b50a40c3c567b434cb7e63c88abf1375, type: 2}
-  revenueText: {fileID: 159407932}
-  money: 0
 --- !u!1 &244477905
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,9 +2311,9 @@ RectTransform:
   - {fileID: 206139812}
   m_Father: {fileID: 2011462128}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 527.97784, y: -531.18134}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1002.449, y: 190.9882}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &265846262
@@ -3478,9 +3404,9 @@ RectTransform:
   - {fileID: 1669714045}
   m_Father: {fileID: 2011462128}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 527.97784, y: -743.6539}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1002.449, y: 190.9882}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &417511973
@@ -7617,7 +7543,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uB370\uBBF8\uC9C0 \uAC12"
+  m_Text: "\uBC8C\uC5B4\uC628 \uAC12 "
 --- !u!222 &1079058956
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8968,7 +8894,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1374105384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9296,6 +9222,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2877586738217314625, guid: 0c761151f8b46f24ea99b64e21f12ac0, type: 3}
   m_PrefabInstance: {fileID: 1418483451}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1437688674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1437688676}
+  - component: {fileID: 1437688675}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1437688675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437688674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e57cfa44307437eb0ebe6acae3205e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerStateData: {fileID: 0}
+--- !u!4 &1437688676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437688674}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -30.23205, y: -29.605999, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1440652188
 GameObject:
   m_ObjectHideFlags: 0
@@ -10107,7 +10078,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1523851139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10385,13 +10356,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1601314429}
+  - component: {fileID: 1601314430}
   m_Layer: 5
   m_Name: StoreBoard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1601314429
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10413,6 +10385,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -23.945}
   m_SizeDelta: {x: 875.283, y: 737.58}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1601314430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601314428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309a875d69d5645a3b6e433d870e3a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapons:
+  - {fileID: 11400000, guid: f06d50df4fe3d4689b95fd65efed80dd, type: 2}
+  - {fileID: 11400000, guid: 3b4073f8ef34a45d7b3b59306f6d13ab, type: 2}
+  - {fileID: 11400000, guid: faacfee7d9f154c3aba21856cfb54df3, type: 2}
+  - {fileID: 11400000, guid: 2f7f8ef15dcf74dfe862fd723bba24d2, type: 2}
+  purchase: []
 --- !u!1 &1618851662
 GameObject:
   m_ObjectHideFlags: 0
@@ -11183,9 +11173,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1720804230}
-  - component: {fileID: 1720804232}
   - component: {fileID: 1720804231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MainTrees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11218,7 +11207,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720804229}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cc2376c723ea14a438db0dffd9b7550e, type: 3}
   m_Name: 
@@ -11226,63 +11215,9 @@ MonoBehaviour:
   state: {fileID: 11400000, guid: e043d4404108d4df8a843c34a0e891ed, type: 2}
   moneySO: {fileID: 11400000, guid: b50a40c3c567b434cb7e63c88abf1375, type: 2}
   revenueText: {fileID: 159407932}
+  attackText: {fileID: 575848305}
+  clickerRevenueText: {fileID: 1079058955}
   money: 0
---- !u!114 &1720804232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720804229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1720804229}
-        m_TargetAssemblyTypeName: Revenue, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &1723382086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11926,9 +11861,9 @@ RectTransform:
   - {fileID: 1440652189}
   m_Father: {fileID: 2011462128}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 527.97784, y: -318.7088}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1002.449, y: 190.9882}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1885407476
@@ -12642,9 +12577,9 @@ RectTransform:
   - {fileID: 685084881}
   m_Father: {fileID: 2011462128}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 527.97784, y: -106.23627}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1002.449, y: 190.9882}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2015674558
@@ -13250,7 +13185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1011873616390640445}
   - component: {fileID: 8258585166914272825}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Back-Up-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13318,7 +13253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4855960028767413772}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Back-Down-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13402,7 +13337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9146365887255726420}
   - component: {fileID: 5046564751953196213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Front-Up-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13491,7 +13426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2520417779045575078}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Back-Up-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13591,7 +13526,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 828542884907633166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-1-4-Sparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13696,7 +13631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4861334160614585878}
   - component: {fileID: 2613472276733719607}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand-Front-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13851,7 +13786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3042879891102792427}
   - component: {fileID: 5167294514699683128}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Back-Down-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13980,7 +13915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1740601653995137238}
   - component: {fileID: 7819091998490511058}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Back-Down-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14012,7 +13947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8323267492549651815}
   - component: {fileID: 6800113429228085659}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Back-Down-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14081,7 +14016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1094140070549373332}
   - component: {fileID: 7169153589797810682}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spark-Oragne-2-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14115,7 +14050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846899188088913051}
   - component: {fileID: 2763831987356638076}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shadow-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14131,7 +14066,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7327465352522912577}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Front-Up-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14148,7 +14083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4754969357346514312}
   - component: {fileID: 5797420995277691536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Front-Up-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14284,7 +14219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3571199799455750392}
   - component: {fileID: 9196411688433063232}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Back-Up-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14385,7 +14320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2403076382422693470}
   - component: {fileID: 7573771722327608201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Front-Up-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14402,7 +14337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 487696482137694081}
   - component: {fileID: 1233028226777481720}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Back-Up-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14523,7 +14458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5938561018825391022}
   - component: {fileID: 3409497894954773282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Front-Up-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14555,7 +14490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5846355504560331259}
   - component: {fileID: 304175109005200185}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14638,7 +14573,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4058433883373213509}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Back-Down-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14670,7 +14605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1695690166307904550}
   - component: {fileID: 4643140324282825699}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand-Back-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14755,7 +14690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3013378951242729255}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Front-Up-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14823,7 +14758,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 445525571293396386}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Back-Up-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14991,7 +14926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3295672142139853581}
   - component: {fileID: 4035169818844291931}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spark-Yellow-1-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15189,7 +15124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1113643163742384926}
   - component: {fileID: 246760405241061085}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15273,7 +15208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3410956573820974021}
   - component: {fileID: 942800949912791539}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Back-Down-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15320,7 +15255,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2219413470355028758}
   - component: {fileID: 7533189624256160531}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shadow-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15337,7 +15272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4574103624328047239}
   - component: {fileID: 952844972756194444}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shadow-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15473,7 +15408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7338756226041435542}
   - component: {fileID: 2094993760303862481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand-Back-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15507,7 +15442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3894839784165608979}
   - component: {fileID: 2496086788338109757}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15576,7 +15511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1119637944121229535}
   - component: {fileID: 1875280260827314177}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15623,7 +15558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5477754410666513845}
   - component: {fileID: 5033100668770900448}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand-Back-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15707,7 +15642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6541294423549836315}
   - component: {fileID: 2145002996663519254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Front-Up-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15724,7 +15659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2949114000608644469}
   - component: {fileID: 3930280294708584344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Front-Down-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15741,7 +15676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4863149072456611024}
   - component: {fileID: 5141867414566647524}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15918,7 +15853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4523340256475253611}
   - component: {fileID: 3311548280174453461}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Front-Down-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16060,7 +15995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859482870123253}
   - component: {fileID: 5312859482870123146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Front-Up-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16159,7 +16094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859482898990578}
   - component: {fileID: 5312859482898990579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Back-Up-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16176,7 +16111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859482914737209}
   - component: {fileID: 5312859482914737214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Back-Down-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16327,7 +16262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859482985310412}
   - component: {fileID: 5312859482985310413}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Front-Down-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16343,7 +16278,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5312859483104345635}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Back-Up-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16377,7 +16312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859483119320198}
   - component: {fileID: 5312859483119320199}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shadow-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16506,7 +16441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859483142524192}
   - component: {fileID: 5312859483142524193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16590,7 +16525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859483212894868}
   - component: {fileID: 5312859483212894869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand-Front-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16607,7 +16542,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859483292230330}
   - component: {fileID: 5312859483292230331}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Front-Up-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16758,7 +16693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859483448541260}
   - component: {fileID: 5312859483448541261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Back-Down-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16842,7 +16777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859483599416108}
   - component: {fileID: 5312859483599416109}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16858,7 +16793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5312859483780517978}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Front-Up-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16892,7 +16827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859483819943258}
   - component: {fileID: 5312859483819943259}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand-Back-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16976,7 +16911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859484164587782}
   - component: {fileID: 5312859484164587783}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Back-Up-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17060,7 +16995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859484418875493}
   - component: {fileID: 5312859484418875514}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Back-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17143,7 +17078,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5312859484545453833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Front-Down-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17176,7 +17111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5312859484657002454}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Back-Down-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17277,7 +17212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5312859484776211296}
   - component: {fileID: 5312859484776211297}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Front-Down-Tree-1-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17334,7 +17269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5720193077855863664}
   - component: {fileID: 364945319499545218}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Back-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17351,7 +17286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3747852947969169147}
   - component: {fileID: 1587792632185255267}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Back-Up-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17367,7 +17302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8998154801041511577}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Front-Down-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17416,7 +17351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3848891039551618415}
   - component: {fileID: 2885865421129417696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Front-Down-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17591,7 +17526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5403637674099364029}
   - component: {fileID: 557057423873386482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17608,7 +17543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3025237136223841670}
   - component: {fileID: 178788380680243994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Back-Up-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17640,7 +17575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5956207488839364088}
   - component: {fileID: 567614274984601102}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Back-Up-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17657,7 +17592,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7969128817663861705}
   - component: {fileID: 742618132521907936}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Front-Down-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17741,7 +17676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9185611045321407836}
   - component: {fileID: 8119579504386874767}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand-Front-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17825,7 +17760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8863964933216938989}
   - component: {fileID: 5947474613069115221}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Back-Down-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17873,7 +17808,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 31823784338386573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Front-Up-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17889,7 +17824,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5706933092516977633}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Back-Down-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18010,7 +17945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1190890873838946384}
   - component: {fileID: 3585708603730395790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Front-Up-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18026,7 +17961,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1847132176173424099}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Front-Down-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18146,7 +18081,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2935038875604931560}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Front-Down-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18245,7 +18180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8038059941906367962}
   - component: {fileID: 7817167222267747072}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bush-Front-Down-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18262,7 +18197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6808704293109225641}
   - component: {fileID: 107155073329579991}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Back-Tree-1-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18398,7 +18333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8161825090094782266}
   - component: {fileID: 2324818138069292109}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand-Front-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18533,7 +18468,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1365847159427756375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Branch-Back-Up-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18550,7 +18485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 667486970042759675}
   - component: {fileID: 8244023855591284517}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spark-Oragne-1-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18567,7 +18502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7206807134996329895}
   - component: {fileID: 7970465369248445778}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Front-Down-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18599,7 +18534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2193034613782473368}
   - component: {fileID: 4208420900047224645}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Art-Back-Down-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18633,7 +18568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 202381089009897349}
   - component: {fileID: 8182082953795462970}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spark-Yellow-2-Tree-1-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18665,7 +18600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2696120492952623170}
   - component: {fileID: 1662368917047297242}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Back-Tree-1-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18750,3 +18685,4 @@ SceneRoots:
   - {fileID: 1632109019}
   - {fileID: 1944366099}
   - {fileID: 1232112279}
+  - {fileID: 1437688676}
