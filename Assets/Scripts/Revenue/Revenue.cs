@@ -9,6 +9,8 @@ public class Revenue : MonoBehaviour, MousePointEnter
     public Money moneySO;
     
     public Text revenueText;
+    public Text attackText;
+    public Text clickerRevenueText;
     
     private float time;
     public int money;
@@ -16,21 +18,23 @@ public class Revenue : MonoBehaviour, MousePointEnter
     private void Start()
     {
         money = moneySO.money;
+        AttackDamage();
     }
 
     private void Update()
     {
         time += Time.deltaTime;
         AutoRevenue();
+        OnPointEnter();
         revenueText.text = $"보유한 돈은 : {money.ToString()} 원";
+        OnClickTime();
     }
 
     public void OnClickRevenue()
     {
-        Debug.Log($"OnClickRevenue 돈총량은 : {money}");
-        Debug.Log($"OnClickRevenue 데미지 값은 : {state.damage}");
         money += state.damage;
         time = 0;
+        clickerRevenueText.text = $"+ {state.damage.ToString()} 원";
     }
 
     public void AutoRevenue()
@@ -43,11 +47,24 @@ public class Revenue : MonoBehaviour, MousePointEnter
 
     public void OnPointEnter()
     {
-        Debug.Log("0000");
+        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        
         if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("1111");
             OnClickRevenue();
         }
+    }
+
+    public void OnClickTime()
+    {
+        if (time > 0.2f)
+        {
+            clickerRevenueText.text = "";
+        }
+    }
+
+    public void AttackDamage()
+    {
+        attackText.text = state.damage.ToString();
     }
 }
